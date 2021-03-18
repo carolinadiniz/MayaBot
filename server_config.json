@@ -1,2 +1,18 @@
 {
+    "404672946179670016": {
+        "status": true,
+        "name": "Nyan Nyan",
+        "prefix": "!",
+        "rpg": {
+            "channel": null
+        }
+    },
+    "656365698578382858": {
+        "status": true,
+        "name": "Kaworii's",
+        "prefix": "!",
+        "rpg": {
+            "channel": null
+        }
+    }
 }
