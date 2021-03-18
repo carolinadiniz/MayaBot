@@ -7,7 +7,7 @@ const server_config_path = './database/server_config.json'
 
 
 client.on('ready', () => {
-    
+    console.log('***** SERVER ONLINE *****')    
 })
 
 client.on('raw', raw => {
