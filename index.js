@@ -28,6 +28,11 @@ client.on('raw', raw => {
             losa.save(server_config, server_config_path)
             console.log(`\x1b[32mNovo servidor adicionado: \x1b[1m${raw.d.name}\x1b[0m`)
         }
+        // Criar arquivos json para RPG characters     ./RPG/database/serverID_xxxxxxxxx.json
+        if(!fs.existsSync(`./RPG/database/serverID_${raw.d.id}.json`)) {
+            fs.writeFileSync(`./RPG/database/serverID_${raw.d.id}.json`, '{}')
+            console.log(`\x1b[33mCriando arquivo database ./RPG/database/serverID_${raw.d.id}.json\x1b[0m`)
+        }
     }
 })
 
@@ -43,6 +48,7 @@ client.on('message', message => {
         console.log(`\x1b[33mPrefix do server ${message.channel.guild.name} alterado para \x1b[32m${message.content.split(' ')[1]}\x1b[0m`)
     }
     RPG(message)
+    console.log(message.content)
 })
 
 client.login(config.token)
