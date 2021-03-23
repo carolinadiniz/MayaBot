@@ -1,30 +1,36 @@
-const losa = require("../module/losa")
+const losa = require('../module/losa')
+const add_channel = require('./module/add_channel')
+const new_character = require('./module/new_character')
 
-module.exports = (message) => {/*
-    // Cria um arquivo para RPG Characters     rpg/character/serverID.json
-    if(!fs.existsSync(`./RPG/database/serverID_${raw.d.id}.json`)) {
-        fs.writeFileSync(`./RPG/database/serverID_${raw.d.id}.json`, "{}")
-        console.log(`\x1b[33mCriando arquivo \x1b[1m./RPG/database/serverID_${raw.d.id}.json\x1b[0m`)
-    }*/
+module.exports = (message, config) => {
     // Variáveis
     author = message.author
     channelID = message.channel.id
     guildID = message.channel.guild.id
-
-    base_path = `./RPG/database/level_base.json`
-    characters_path = `./RPG/database/serverID_${guildID}.json`
-    server_config_path = './server_config.json'
-
-    base = losa.load(base_path)
-    characters = losa.load(characters_path)
-    server_config = losa.load(server_config_path)
-
-    user = characters[author.id]
+    server_config = losa.load('./server_config.json')
 
     // COMMANDS
     if(message.content.split(' ')[0].includes(server_config[guildID].prefix)) {
         // Criando comando
         command = message.content.toLowerCase().split(' ')[0].slice(server_config[guildID].prefix.length)
-        
+
+
+        // Adicionando Canal RPG
+        if(command == 'setchannelrpg' && author.id == config.admin) {
+            add_channel.add(message)
+        }
+        // Removendo Canal RPG
+        if(command == 'removechannelrpg' && author.id == config.admin) {
+            add_channel.remove(message)
+        }
+
+        // Verifica se o canal está ativado
+        if(channelID != server_config[guildID].rpg.channel) return
+
+        // Criar characters
+        if(command == 'newchar') {
+            new_character(message)
+        }
+
     }
 }

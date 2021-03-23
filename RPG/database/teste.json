@@ -1,0 +1,111 @@
+{
+    "XXXXXXXXXXXX": {
+        "nome": "Kaworii",
+        "level": 98,
+        "XP": 12932,
+        "class": null,
+        "subclass": null,
+
+        "stats": {
+            "MP": { "now": 100, "max": 100 },
+            "EP": { "now": 100, "max": 100 },
+
+            "DMG": { "calculed": 0, "percent": 0, "points": 0 },
+            "CRIT": { "calculed": 0, "percent": 0, "points": 0 },
+            "SPD": { "calculed": 0, "percent": 0, "points": 0 },
+    
+            "HP": { "now": 0, "max": 0, "points": 0 },
+            "DEF": { "calculed": 0, "percent": 0, "points": 0 },
+            "EVA": { "calculed": 0, "percent": 0, "points": 0 },
+    
+            "CRITDMG": 130,
+            "ACC": 0,
+            "HEAL": 100,
+
+            "DETAILED": {
+                "Offensive": {
+                    "primaryWeaponDamagebonus": 0,
+                    "primaryWeaponCritRate": 0,
+                    "primaryWeaponCritDamage": 0,
+                    "DamagebonusagainstBosses": 0,
+                    "CritRatebonusagainstBosses": 0,
+                    "CritDamagebonusagainstBosses": 0,
+                    "DamagebonusagainstElites": 0,
+                    "CritRatebonusagainstElites": 0,
+                    "CritDamagebonusagainstElites": 0,
+                    "DamagebonusagainstPlayers": 0,
+                    "CritRatebonusagainstPlayers": 0,
+                    "CritDamagebonusagainstPlayers": 0,
+                    "DamagebonustoStormtargets": 0,
+                    "DamagebonustoFlametargets": 0,
+                    "DamagebonustoLightningtargets": 0,
+                    "DamagebonustoIcetargets": 0,
+                    "DamagebonustoHolytargets": 0,
+                    "DamagebonustoDarktargets": 0,
+                    "Penetration": 0
+                },
+                "Defensive": {
+                    "GeneralDamageReduction": 0,
+                    "GeneralCritRateReduction": 0,
+                    "GeneralCritDamageReduction": 0,
+
+                    "BossDamageReduction": 0,
+                    "BossCritRateReduction": 0,
+                    "BossCritDamageReduction": 0,
+
+                    "EliteDamageReduction": 0,
+                    "EliteCritRateReduction": 0,
+                    "EliteCritDamageReduction": 0,
+
+                    "PlayerDamageReduction": 0,
+                    "PlayerCritRateReduction": 0,
+                    "PlayerCritDamageReduction": 0,
+
+                    "BonustoHealingPotency": 0,
+                    "BonustoReceivedHealing": 0,
+                    "DamageDealAbsorvedasHP": 0,
+                    "DamageTakenReflectedBack": 0,
+                    "XPbonusfromDefeatingMonsters": 0,
+                    "DropRatebonus": 0,
+
+                    "ReceivedStormDamageReduce": 0,
+                    "ReceivedFlameDamageReduce": 0,
+                    "ReceivedLightningDamageReduce": 0,
+                    "ReceivedIceDamageReduce": 0,
+                    "ReceivedHolyDamageReduce": 0,
+                    "ReceivedDarkDamageReduce": 0
+                }
+            },
+
+            "EQUIPMENT": {
+                "weapon":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "weaponsub":  { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "trophy1":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "trophy2":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "necklace":   { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "ring":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "back":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "helmet":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "armor":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "belt":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "gloves":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "boots":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "holySpirit": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+                "gaiaEmblem": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 }
+            },
+
+            "ENVOY": {
+                "temp": null
+            },
+
+            "MASTERIES": {
+                "General": null,
+                "Attack": null,
+                "Advance": null,
+                "Defense": null,
+                "Tactical": null,
+                "Special": null
+            }
+        }
+    }
+}
