@@ -75,37 +75,37 @@
                     "ReceivedHolyDamageReduce": 0,
                     "ReceivedDarkDamageReduce": 0
                 }
-            },
-
-            "EQUIPMENT": {
-                "weapon":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "weaponsub":  { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "trophy1":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "trophy2":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "necklace":   { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "ring":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "back":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "helmet":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "armor":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "belt":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "gloves":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "boots":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "holySpirit": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
-                "gaiaEmblem": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 }
-            },
-
-            "ENVOY": {
-                "temp": null
-            },
-
-            "MASTERIES": {
-                "General": null,
-                "Attack": null,
-                "Advance": null,
-                "Defense": null,
-                "Tactical": null,
-                "Special": null
             }
+        },
+        
+        "EQUIPMENT": {
+            "weapon":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "weaponsub":  { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "trophy1":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "trophy2":    { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "necklace":   { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "ring":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "back":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "helmet":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "armor":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "belt":       { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "gloves":     { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "boots":      { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "holySpirit": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 },
+            "gaiaEmblem": { "id": null, "ATKB": 100, "fort": 0, "stars": 0 }
+        },
+
+        "ENVOY": {
+            "temp": null
+        },
+
+        "MASTERIES": {
+            "General": null,
+            "Attack": null,
+            "Advance": null,
+            "Defense": null,
+            "Tactical": null,
+            "Special": null
         }
     }
 }
