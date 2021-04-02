@@ -17,7 +17,6 @@ module.exports = async (client, message) => {
 
         STATS: {
             MP: { now: 100, max: 100 },
-            EP: { now: 100, max: 100 },
 
             DMG:  { calculed: 0, percent: 0, points: 0 },
             CRIT: { calculed: 0, percent: 0, points: 0 },
