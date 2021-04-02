@@ -83,7 +83,6 @@ module.exports = (userID, guildID) => {
     characters[userID].STATS.CRIT.percent = CRIT
     characters[userID].STATS.SPD.calculed = (((1+(1/100)*SPD_statPerInc) * (base.SPD + SPD_gear)) + SPD_titles + SPD_contributionEidoStats)
     characters[userID].STATS.SPD.percent = SPD
-    characters[userID].STATS.HP.now = HP
     characters[userID].STATS.HP.max = HP
     characters[userID].STATS.DEF.calculed = (((1+(1/100)*DEF_statPerInc) * (base.DEF + DEF_gear)) + DEF_titles + DEF_contributionEidoStats)
     characters[userID].STATS.DEF.percent = DEF
